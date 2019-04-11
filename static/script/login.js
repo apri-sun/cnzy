@@ -1,6 +1,4 @@
 $(function(){
-	$("body").width($(window).width());
-	$("body").height($(window).height());
 	
 	//点击登录后校验是否为空
 	$(".login").click(function(){
