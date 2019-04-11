@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<link rel="icon" type="image/x-icon" href="../static/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="../static/style/index.css" />
+		<link rel="stylesheet" type="text/css" href="../static/style/footermodel.css"/>
+		<link rel="stylesheet" type="text/css" href="../static/style/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../static/style/BS.css" />
+	</head>
+
+	<body>
+		<div class="index-header">
+			<div class="index-wrap">
+				<a href="" class="index-logo"></a>
+				<div class="index-search">
+					<form action="" method="get" class="search-form">
+						<input type="text" class="search-box" name="" id="" placeholder="搜索你感兴趣的内容..." />
+						<button type="submit" class="search-button">
+							<span class="search-img"></span>
+						</button>
+					</form>
+				</div>
+				<div class="index-nav">
+					<ul>
+						<li class="nav-mainpage nav-li">
+							<a href="" class="nav-link">首页</a>
+						</li>
+						<li class="nav-li">
+							<a href="" class="nav-link nav-other-link">发现</a>
+						</li>
+						<li class="nav-li">
+							<a href="" class="nav-link nav-other-link" data-toggle="modal" data-target="#message">消息</a>
+						</li>
+					</ul>
+				</div>
+				<div class="index-user menu">
+					<ul>
+						<li>
+							<a href="" class="user-info">
+								<span>牛客</span>
+								<span class="user-portrait"></span>
+							</a>
+							<ul class="nav-dropdown">
+								<li class="sec-nav">
+									<a href="" class="btn-hover"><i class="nav-home nav-icon"></i>我的主页</a>
+								</li>
+								<li class="sec-nav">
+									<a href="" class="btn-hover"><i class="nav-mess nav-icon"></i>私信</a>
+								</li>
+								<li class="sec-nav last-nav">
+									<a href="" class="bottom-radius btn-hover"><i class="nav-out nav-icon"></i>退出</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<button type="button" class="index-question" data-toggle="modal" data-target="#exampleModal">提问</button>
+			</div>
+		</div>
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h5 class="modal-title" id="exampleModalLabel">提问</h5>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+								<label for="recipient-name" class="control-label">标题:</label>
+								<input type="text" class="form-control" id="recipient-name">
+							</div>
+							<div class="form-group">
+								<label for="message-text" class="control-label">问题说明(可选):</label>
+								<div class="test-textarea" contenteditable="true"><br /></div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+						<button type="button" class="btn btn-primary">发布</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="message" tabindex="-1" role="dialog" aria-labelledby="messageLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h5 class="modal-title" id="exampleModalLabel">消息</h5>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+								<label for="recipient-name" class="control-label">接收人:</label>
+								<input type="text" class="form-control" id="recipient-name">
+							</div>
+							<div class="form-group">
+								<label for="message-text" class="control-label">内容:</label>
+								<div class="test-textarea" contenteditable="true"><br /></div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary">发送</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="index-content">
+			<div class="content-headline">
+				<div class="dynamic-icon">
+				</div>
+				最新动态
+				<span class="head-set">
+					<a href="" class="word-color">
+						<div class="set-icon">
+						</div>
+						设置
+					</a>
+				</span>
+			</div>
+			<div class="content-list">
+				<div class="list-item">
+					<div class="item-inner">
+						<div class="item-portrait">
+							<a href=""><img src="../static/images/allstar.jpg" /></a>
+						</div>
+						<div class="item-main">
+							<div class="item-source">
+								热门文章
+								<a href="" class="ignore"></a>
+							</div>
+							<div class="item-content">
+								<h2><a href="" class="item-title">电动力学</a></h2>
+								<div class="item-body">
+									<div class="body-like">
+										<a href="" class="body-like-count">1082</a>
+									</div>
+									<div class="author-info">
+										<a href="">赵永峰</a>
+										, To science.
+									</div>
+									<div class="post-content">
+										<div class="summary">
+											电动力学的推荐书是两本：1、Griffiths《Introduction to Electrodynamics》。Griffiths的教材都很经典，这本也不例外。讲得很清楚，也很容易入手。不过国内的学生读起来可能会感觉过于简单，其实大部分内容很接近一般普物电磁学教材的难度，但是数学更严格…
+										</div>
+										<a href="" class="toggle-expand">显示全部</a>
+									</div>
+									<div class="feed-meta">
+										<div class="meta">
+											<div class="meta-panel">
+												<a href="" class="follow meta-item">
+													<div class="follow-icon">
+													</div>
+													关注专栏
+												</a>
+												<a href="" class="comment meta-item">
+													<div class="comment-icon">
+													</div>
+													100条评论
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list">
+				<div class="list-item">
+					<div class="item-inner">
+						<div class="item-portrait">
+							<a href=""><img src="../static/images/allstar.jpg" /></a>
+						</div>
+						<div class="item-main">
+							<div class="item-source">
+								热门回答, 来自
+								<a href="" class="category">人际交往</a>
+								<a href="" class="follow-topic">关注话题</a>
+								<a href="" class="ignore"></a>
+							</div>
+							<div class="item-content">
+								<h2><a href="" class="item-title">在正式场合穿着正装如何避免被当做服务员？</a></h2>
+								<div class="item-body">
+									<div class="body-like">
+										<a href="" class="body-like-count">1082</a>
+									</div>
+									<div class="author-info">
+										<a href="">李淼</a>
+										, 从互联网行业出来在做旅行的前对冲基金从…
+									</div>
+									<div class="post-content">
+										<div class="summary">
+											怕被当作服务员，可以穿White tie full dress（一般二般的服务员没那么讲究）： 黑色或藏蓝色燕尾服 裤边带有镶边的同样颜色长裤 正装白衬衫 白色腰封 白色蝴蝶领结 黑色袜子 黑色非系带皮鞋 既然你们都说这是服务员标配，那么请告诉我哪家餐厅服务员和领班…
+										</div>
+										<a href="" class="toggle-expand">显示全部</a>
+									</div>
+									<div class="feed-meta">
+										<div class="meta">
+											<div class="meta-panel">
+												<a href="" class="follow meta-item">
+													<div class="follow-icon">
+													</div>
+													关注问题
+												</a>
+												<a href="" class="comment meta-item">
+													<div class="comment-icon">
+													</div>
+													69条评论
+												</a>
+												<a href="" class="thank meta-item">
+													<div class="thank-icon">
+													</div>
+													感谢
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list">
+				<div class="list-item">
+					<div class="item-inner">
+						<div class="item-portrait">
+							<a href=""><img src="../static/images/allstar.jpg" /></a>
+						</div>
+						<div class="item-main">
+							<div class="item-source">
+								热门回答, 来自
+								<a href="" class="category">企业并购</a>
+								<a href="" class="follow-topic">关注话题</a>
+								<a href="" class="ignore"></a>
+							</div>
+							<div class="item-content">
+								<h2><a href="" class="item-title">在并购交易中，并购价款是如何确定的？</a></h2>
+								<div class="item-body">
+									<div class="body-like">
+										<a href="" class="body-like-count">1082</a>
+									</div>
+									<div class="author-info">
+										<a href="">林六如</a>
+										, 金融/创业/实业
+									</div>
+									<div class="post-content">
+										<div class="summary">
+											谢之前诸君关注，由于已经离职，所以取消这个答题的匿名了。========================经验相关：某华尔街投行全球能源组，从业四年顺利完成的央企海外并购项目金额总计约200亿美元。现有的几个其他答案主要以境内一对一竞标为主。如果标的是一个全球性资产…
+										</div>
+										<a href="" class="toggle-expand">显示全部</a>
+
+									</div>
+									<div class="feed-meta">
+										<div class="meta">
+											<div class="meta-panel">
+												<a href="" class="follow meta-item">
+													<div class="follow-icon">
+													</div>
+													关注问题
+												</a>
+												<a href="" class="comment meta-item">
+													<div class="comment-icon">
+													</div>
+													69条评论
+												</a>
+												<a href="" class="thank meta-item">
+													<div class="thank-icon">
+													</div>
+													感谢
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list">
+				<div class="list-item">
+					<div class="item-inner">
+						<div class="item-portrait">
+							<a href=""><img src="../static/images/allstar.jpg" /></a>
+						</div>
+						<div class="item-main">
+							<div class="item-source">
+								热门回答, 来自
+								<a href="" class="category">物理学</a>
+								<a href="" class="follow-topic">关注话题</a>
+								<a href="" class="ignore"></a>
+							</div>
+							<div class="item-content">
+								<h2><a href="" class="item-title">当前凝聚态物理（理论以及实验）有哪些研究热点和难题？</a></h2>
+								<div class="item-body">
+									<div class="body-like">
+										<a href="" class="body-like-count">1082</a>
+									</div>
+									<div class="author-info">
+										<a href="">JinH </a>
+										, My conquest is the sea of stars.
+									</div>
+									<div class="post-content">
+										<div class="summary">
+											08年入行，略微有一些了解。以下是我所涉猎的一些08年后的研究重点。本人实验物理出身，理论上不周全和错误之处还请海涵。评论区指出了一些表达不清楚容易误解之处甚至是错误之处，已经一一修改，在此一并感谢。凝聚态领域很大，有一些方面不熟悉或者不了解11111111111111111111111111111111111111111111111111
+										</div>
+										<a href="" class="toggle-expand">显示全部</a>
+									</div>
+									<div class="feed-meta">
+										<div class="meta">
+											<div class="meta-panel">
+												<a href="" class="follow meta-item">
+													<div class="follow-icon">
+													</div>
+													关注问题
+												</a>
+												<a href="" class="comment meta-item">
+													<div class="comment-icon">
+													</div>
+													69条评论
+												</a>
+												<a href="" class="thank meta-item">
+													<div class="thank-icon">
+													</div>
+													感谢
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list">
+				<div class="list-item">
+					<div class="item-inner">
+						<div class="item-portrait">
+							<a href=""><img src="../static/images/allstar.jpg" /></a>
+						</div>
+						<div class="item-main">
+							<div class="item-source">
+								热门回答, 来自
+								<a href="" class="category">医学</a>
+								<a href="" class="follow-topic">关注话题</a>
+								<a href="" class="ignore"></a>
+							</div>
+							<div class="item-content">
+								<h2><a href="" class="item-title">晕倒前憋了尿，晕倒后会尿出来吗？还是像睡觉一样等醒来才能尿？</a></h2>
+								<div class="item-body">
+									<div class="body-like">
+										<a href="" class="body-like-count">1082</a>
+									</div>
+									<div class="author-info">
+										<a href="">吕剑霆</a>
+										, 半血复活ing...
+									</div>
+									<div class="post-content">
+										<div class="summary">
+											谢邀~我并不是这个专业的，只是知道身为医生的常识，回答只为引玉~尿道括约肌的紧张是主要由小脑和下丘脑维持，而松驰是由大脑控制。一般程度的晕迷是指大脑意识的丧失，而下丘脑和小脑这些“原始”的控制中枢并不受影响。所以，一般情况下，晕迷中是不会排…
+										</div>
+										<a href="" class="toggle-expand">显示全部</a>
+									</div>
+									<div class="feed-meta">
+										<div class="meta">
+											<div class="meta-panel">
+												<a href="" class="follow meta-item">
+													<div class="follow-icon">
+													</div>
+													关注问题
+												</a>
+												<a href="" class="comment meta-item">
+													<div class="comment-icon">
+													</div>
+													69条评论
+												</a>
+												<a href="" class="thank meta-item">
+													<div class="thank-icon">
+													</div>
+													感谢
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list">
+				<div class="list-item">
+					<div class="item-inner">
+						<div class="item-portrait">
+							<a href=""><img src="../static/images/allstar.jpg" /></a>
+						</div>
+						<div class="item-main">
+							<div class="item-source">
+								热门回答, 来自
+								<a href="" class="category">文学</a>
+								<a href="" class="follow-topic">关注话题</a>
+								<a href="" class="ignore"></a>
+							</div>
+							<div class="item-content">
+								<h2><a href="" class="item-title">游戏里的 BOSS 每天都在干嘛？不寂寞吗？</a></h2>
+								<div class="item-body">
+									<div class="body-like">
+										<a href="" class="body-like-count">1082</a>
+									</div>
+									<div class="author-info">
+										<a href="">朱炫</a>
+										, 闷骚而近妖 微博：大师兄_朱炫
+									</div>
+									<div class="post-content">
+										<div class="summary">
+											谢邀“当他们杀害安达利尔时，我没有站起来说话， 当他们杀害阿兹莫丹时，我没有站起来说话， 当他们杀害堕落的衣卒尔时，我没有站起来说话， 当最终他们走向我时，再也没有人站出来为我说话。” 题记我姓迪，这个姓现在不多见了，我认识的人里，除了台湾歌…
+										</div>
+										<a href="" class="toggle-expand">显示全部</a>
+									</div>
+									<div class="feed-meta">
+										<div class="meta">
+											<div class="meta-panel">
+												<a href="" class="follow meta-item">
+													<div class="follow-icon">
+													</div>
+													关注问题
+												</a>
+												<a href="" class="comment meta-item">
+													<div class="comment-icon">
+													</div>
+													1857条评论
+												</a>
+												<span class="bull">•</span>
+												<a href="" class="copyright meta-item">
+													作者保留权利
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list">
+				<div class="list-item">
+					<div class="item-inner">
+						<div class="item-portrait">
+							<a href=""><img src="../static/images/allstar.jpg" /></a>
+						</div>
+						<div class="item-main">
+							<div class="item-source">
+								热门回答, 来自
+								<a href="" class="category">新三板</a>
+								<a href="" class="follow-topic">关注话题</a>
+								<a href="" class="ignore"></a>
+							</div>
+							<div class="item-content">
+								<h2><a href="" class="item-title">VIE 结构的公司如何回归新三板？</a></h2>
+								<div class="item-body">
+									<div class="body-like">
+										<a href="" class="body-like-count">1082</a>
+									</div>
+									<div class="author-info">
+										<a href="">庄明浩（rosicky311）</a>
+										, 前VC行业小兵一枚，现创业中
+									</div>
+									<div class="post-content">
+										<div class="summary">
+											以下内容谢绝任何媒体任何形式的转载和摘抄；部分微信公号的转发已经举报，还有些漏网之鱼我会继续举报！之前看了 @沈一冰的答案，他答案下面 @Danny W同学也表示了其实没有这么简单；巧合的是最近正好在做一个案子拆VIE的，能遇到的所有问题可能都遇到了，…
+										</div>
+										<a href="" class="toggle-expand">显示全部</a>
+									</div>
+									<div class="feed-meta">
+										<div class="meta">
+											<div class="meta-panel">
+												<a href="" class="follow meta-item">
+													<div class="follow-icon">
+													</div>
+													关注问题
+												</a>
+												<a href="" class="comment meta-item">
+													<div class="comment-icon">
+													</div>
+													48条评论
+												</a>
+												<span class="bull">•</span>
+												<a href="" class="copyright meta-item">
+													作者保留权利
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-list">
+				<div class="list-item">
+					<div class="item-inner">
+						<div class="item-portrait">
+							<a href=""><img src="../static/images/allstar.jpg" /></a>
+						</div>
+						<div class="item-main">
+							<div class="item-source">
+								热门回答, 来自
+								<a href="" class="category">生理学</a>
+								<a href="" class="follow-topic">关注话题</a>
+								<a href="" class="ignore"></a>
+							</div>
+							<div class="item-content">
+								<h2><a href="" class="item-title">「情义三千不敌胸脯四两」中，四两指几罩杯？</a></h2>
+								<div class="item-body">
+									<div class="body-like">
+										<a href="" class="body-like-count">1082</a>
+									</div>
+									<div class="author-info">
+										匿名用户
+									</div>
+									<div class="post-content">
+										<div class="summary">
+											原作者：Ruki看不下去题里全是复制党，而且计算方法还是错的，怒答！ 0. 计量单位确认众所周知，我国在古代与现代，采取两种完全不同的计量方式，即（感谢 @黄继新老师提供讨论）：古代一斤都等于 16 两，但究竟相当于今天的多少克，不同朝代的度量衡规定不…
+										</div>
+										<a href="" class="toggle-expand">显示全部</a>
+									</div>
+									<div class="feed-meta">
+										<div class="meta">
+											<div class="meta-panel">
+												<a href="" class="follow meta-item">
+													<div class="follow-icon">
+													</div>
+													关注问题
+												</a>
+												<a href="" class="comment meta-item">
+													<div class="comment-icon">
+													</div>
+													500条评论
+												</a>
+												<span class="bull">•</span>
+												<a href="" class="copyright meta-item">
+													作者保留权利
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="" class="button-more">更多</a>
+		</div>
+		<div class="follow-footer">
+			<div class="footer-content">
+				<ul>
+					<li>
+						<a href="">建议反馈</a>
+					</li>
+					<li>
+						<a href="">加入我们</a>
+					</li>
+					<li>
+						<a href="">合作建议</a>
+					</li>
+					<li>
+						<a href="">联系我们</a>
+					</li>
+				</ul>
+				<span id="copy">© Copyright 2019 47056. All Rights Reserved. </span>
+			</div>
+		</div>
+		<script src="../static/script/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../static/script/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
