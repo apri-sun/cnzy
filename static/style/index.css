@@ -379,7 +379,6 @@ h5 {
 
 .content-list {
 	position: relative;
-	border-top: 1px solid #CCCCCC;
 }
 
 .list-item {
@@ -387,6 +386,7 @@ h5 {
 	position: relative;
 	outline: 0;
 	margin-left: 0;
+	border-top: 1px solid #CCCCCC;
 }
 
 .item-portrait {

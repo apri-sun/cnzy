@@ -134,14 +134,11 @@ h2 .job{
 	width: 118px;
 	height: 34px;
 	border: 1px solid #0084ff;
-	color: #0084ff;
-	background: #fff;
+	color: #fff;
+	background: #0084ff;
 	font-size: 14px;
+	outline: #fff;
 	border-radius: 3px;
-}
-
-.edit-info:hover{
-	background-color: rgba(0,132,255,.06);
 }
 
 .main-body{
@@ -195,23 +192,15 @@ h2 .job{
 	align-items: center;
 	margin: 0 20px;
 	height: 50px;
-	border-bottom: 1px solid #f6f6f6;
 }
 
 .list-body{
-	text-align: center;
-	padding: 70px 0;
 	font-size: 15px;
-	color: #8590a6;
 }
 
 .list-body img{
 	height: 120px;
 	width: 120px;
-}
-
-.list-body div a{
-	color: #175199;
 }
 
 .right .attention{
@@ -220,18 +209,19 @@ h2 .job{
 	margin-bottom: 10px;
 	background-color: #fff;
 	box-shadow: 0 1px 3px rgba(26,26,26,.1);
-	display: flex;
 }
 
-.right .attention a{
-	width: 50%;
+.right .attention .div-focus{
+	width: 49%;
+	height: 75px;
 	font-size: 14px;
 	color: #8590a6;
-	display: flex;
+	display: inline-flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	border-left: 1px solid #f6f6f6;
+	cursor: pointer;
 }
 
 strong{
@@ -240,6 +230,7 @@ strong{
 }
 
 .footer{
+	margin-top: 20px;
 	color: #8590a6;
 }
 
@@ -255,4 +246,86 @@ a{
 
 a:hover{
 	color: #175199;
+}
+
+/*回答*/
+.out{
+	margin: 0 20px;
+	border-top: 1px solid #f6f6f6;
+}
+.out .head{
+	padding: 10px 0;
+	color: #8590a6;
+}
+
+.qusetion-name{
+	font-size: 18px;
+	font-weight: 600;
+	color: inherit;
+	cursor: pointer;
+}
+
+.body-info{
+	display: flex;
+	margin-top: 10px;
+}
+
+.body-info img{
+	height: 38px;
+	width: 38px;
+	cursor: pointer;
+}
+
+.container{
+	line-height: 1.4;
+}
+
+.name-info{
+	position: relative;
+	font-weight: 600;
+}
+
+.body-foot{
+	margin-bottom: 10px;
+}
+
+.body-foot img{
+	width: 16px;
+	height: 16px;
+}
+
+/*提问*/
+.qusetion{
+	padding: 16px 0;
+}
+
+.qusetion div:first-of-type{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+/*关注*/
+.focus-list{
+	display: flex;
+	margin-top: 10px;
+}
+
+.focus-list img{
+	height: 38px;
+	width: 38px;
+	cursor: pointer;
+}
+
+#focus-people{
+	position: absolute;
+	top: 8px;
+	right: 0;
+	width: 68px;
+	height: 24px;
+	border: 1px solid #0084ff;
+	color: #fff;
+	background: #0084ff;
+	font-size: 14px;
+	outline: #fff;
+	border-radius: 3px;
 }

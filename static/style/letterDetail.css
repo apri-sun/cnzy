@@ -132,7 +132,9 @@ li {
 	top: 30%;
 	right: -10px;
 }
+
 .opposite-dialogbox-content {
+	position: relative;
 	background: #eef2f2;
 	width: 820px;
 	height: 94px;
@@ -155,11 +157,15 @@ li {
 }
 
 .opposite-chat-specific {
-	width: 500px;
+	position: absolute;
+	right: 0;
+	/*width: 500px;*/
 	text-align: left;
 	float: right;
 	line-height: 1.6;
 	font-size: 14px;
+	padding-right: 25px;
+	max-width: 500px;
 }
 .dialogbox a:hover{
 	text-decoration: underline;
