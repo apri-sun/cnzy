@@ -285,6 +285,11 @@ a:hover{
 	font-weight: 600;
 }
 
+.time-info{
+	font-size: 14px;
+	color: #8590a6;
+}
+
 .body-foot{
 	margin-bottom: 10px;
 }
@@ -316,7 +321,7 @@ a:hover{
 	cursor: pointer;
 }
 
-#focus-people{
+.focus-people{
 	position: absolute;
 	top: 8px;
 	right: 0;
